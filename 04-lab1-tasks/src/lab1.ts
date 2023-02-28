@@ -11,13 +11,13 @@ export class Lab1{
 
   palindrome (text: string){
     //const string = this.sinAcentos(text).toString().toLowerCase();
-    const string = text.toString().toLowerCase().replace(/ /g,"");
+    const string = text.toString().toLowerCase().normalize('NFD').replace(/[^A-Za-z0-9]/g,'');
    // console.log("string " + string);
     const len = string.length;
     for (let i = 0, j = len - 1; i < j; ++i, --j) {
-        if(string[i] !== " " && string[j] !== " "){
-            //console.log("no vacio");
-            
+        //if(string[i] !== " " && string[j] !== " "){
+            if(string[i] !== " " && string[j] !== " "){
+
             if (string[i] !== string[j]) { 
                 return false;
             }
@@ -48,10 +48,10 @@ export class Lab1{
     let arraystr:string []=[];
     for (let i = 0; i < len; ++i) {
          arraystr.push(string[i]);
-        console.log("string: " + string[i]);
+       // console.log("string: " + string[i]);
        
     }
-    console.log(arraystr);
+  //  console.log(arraystr);
     
     return arraystr;
  }
