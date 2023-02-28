@@ -15,12 +15,12 @@ export class Lab1{
    // console.log("string " + string);
     const len = string.length;
     for (let i = 0, j = len - 1; i < j; ++i, --j) {
-        //if(string[i] !== " " && string[j] !== " "){
-            if(string[i] !== " " && string[j] !== " "){
+        //if(string[i] !== " " || string[j] !== " "){
+           // if(string[i] !== " " && string[j] !== " "){
 
             if (string[i] !== string[j]) { 
                 return false;
-            }
+          //  }
         }
         //console.log("string 1" + string[i]);
         //console.log("string 2" + string[j]);
