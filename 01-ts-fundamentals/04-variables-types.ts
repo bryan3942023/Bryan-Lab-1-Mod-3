@@ -29,11 +29,14 @@ b
     console.log(str3);
     
 
-const myName = 'Bryan';
-const presentar =`hola mi nombre es ${myName}`
+//const reason = 'Bryan';
+
+const reason = 'BOB ' + "Smith";
+const presentar =`hola mi nombre es ${reason}`
 console.log(presentar);
 
-
+const respText = reason.includes("BoB");
+console.log(respText);
 
 
 //string
