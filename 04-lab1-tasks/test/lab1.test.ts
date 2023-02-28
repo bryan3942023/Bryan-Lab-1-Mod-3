@@ -5,9 +5,9 @@ test('validate if a text is palindrome', () => {
       //  const resNumb=jest.fn((a:string)=> a.split('').reverse().join(''));
        const pal = new Lab1();
     //actual
-    //const actual = pal.palindrome('ANA LAVA LANA');
+    const actual = pal.palindrome('ANA LAVA LANA');
    //const actual = pal.palindrome('Lavan esa base naval');
-   const actual = pal.palindrome('No traces en ese cartón');
+   //const actual = pal.palindrome('No traces en ese cartón');
 
     //expected
         //const expc = true;
