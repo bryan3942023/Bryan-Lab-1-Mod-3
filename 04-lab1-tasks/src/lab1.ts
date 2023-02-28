@@ -11,8 +11,8 @@ export class Lab1{
 
   palindrome (text: string){
     //const string = this.sinAcentos(text).toString().toLowerCase();
-    const string = text.toString().toLowerCase();
-    console.log("string " + string);
+    const string = text.toString().toLowerCase().replace(/ /g,"");
+   // console.log("string " + string);
     const len = string.length;
     for (let i = 0, j = len - 1; i < j; ++i, --j) {
         if(string[i] !== " " && string[j] !== " "){
@@ -22,8 +22,8 @@ export class Lab1{
                 return false;
             }
         }
-        console.log("string 1" + string[i]);
-        console.log("string 2" + string[j]);
+        //console.log("string 1" + string[i]);
+        //console.log("string 2" + string[j]);
         
     }
     return true;
@@ -42,15 +42,17 @@ export class Lab1{
     return largest;
  }
 
- arrayString(text:String){
-    const string = text.toString();
+ arrayString(text:String): Array<String>{
+    const string = text.toString().replace(/ /g,"");
     const len = string.length;
-    let arraystr : string[];
+    let arraystr:string []=[];
     for (let i = 0; i < len; ++i) {
          arraystr.push(string[i]);
-        console.log("string" + string[i]);
+        console.log("string: " + string[i]);
        
     }
+    console.log(arraystr);
+    
     return arraystr;
  }
 
