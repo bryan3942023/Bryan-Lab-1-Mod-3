@@ -5,7 +5,8 @@ test('validate if a text is palindrome', () => {
       //  const resNumb=jest.fn((a:string)=> a.split('').reverse().join(''));
        const pal = new Lab1();
     //actual
-    const actual = pal.palindrome('ANA LAVA LANA');
+    //const actual = pal.palindrome('ANA LAVA LANA');
+   const actual = pal.palindrome('Lavan esa base naval');
 
     //expected
         //const expc = true;
@@ -35,14 +36,14 @@ const actual = pal.highestNumber(arrayN);
         //TDD
             const pal = new Lab1();
         //actual
-        //const txt= 'Hello';
-        const txt= 'Hola';
+        const txt= 'Hello';
+        //const txt= 'Hola';
         const actual = pal.arrayString(txt);
    
         
         //expected
-            //const expc = ['H', 'e', 'l', 'l', 'o'];
-            const expc = ['H', 'o', 'l', 'a'];
+            const expc = ['H', 'e', 'l', 'l', 'o'];
+           // const expc = ['H', 'o', 'l', 'a'];
             
             //expect(actual).toBe(expc);
             expect(actual).toStrictEqual(expc);
