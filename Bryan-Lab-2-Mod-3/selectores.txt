@@ -1,0 +1,24 @@
+1.- header#wt-site-header a._siteLogo_phohr span svg
+
+
+2.- header#wt-site-header ._mainMenuItem_wc76vj:nth-of-type(2)
+
+
+3.- header#wt-site-header .wt-col-inline.wt-col_align-self_center._siteHeader__actions_zfsdn ._siteHeaderActions__action_lnlo2._siteHeaderActions__action_i2mrqj:nth-of-type(3)
+
+4.- div#js-menu-second-desktop a.wt-col-inline.menu-second__download-button.wt-button.wt-button_size_s.wt-button_mode_primary
+
+
+5.- .features-section .wt-col-3.wt-col-md-6.wt-col-sm-12.wt-offset-top-32:nth-of-type(6) svg.feature-card__icon
+
+6.- section.comparison-section .comparison-card__inner ul li:nth-of-type(6)  a.rs-link
+
+7.- section.comparison-section .comparison-card:nth-of-type(1) .comparison-card__inner button._main_12yxkch_17._modeRock_12yxkch_208._sizeM_12yxkch_99._alignIconRight_12yxkch_81._light_12yxkch_59
+
+8.- section.comparison-section .comparison-card:nth-of-type(2) .comparison-card__inner  a._wtDownloadButton__left_f7btm
+
+
+9.- .comparison-section ._sizeM_1e63mqc_99._modeOutline_1e63mqc_356
+
+
+10.- .wt-tooltip__content
