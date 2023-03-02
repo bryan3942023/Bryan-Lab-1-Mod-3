@@ -9,7 +9,8 @@
 4.- div#js-menu-second-desktop a.wt-col-inline.menu-second__download-button.wt-button.wt-button_size_s.wt-button_mode_primary
 
 
-5.- .features-section .wt-col-3.wt-col-md-6.wt-col-sm-12.wt-offset-top-32:nth-of-type(6) svg.feature-card__icon
+5.- .features-section .wt-col-3.wt-col-md-6.wt-col-sm-12.wt-offset-top-32:nth-of-type(6) svg.feature-card__icon  -> al icono
+.features-section .wt-col-3.wt-col-md-6.wt-col-sm-12.wt-offset-top-32:nth-of-type(6) -> al cajon
 
 6.- section.comparison-section .comparison-card__inner ul li:nth-of-type(6)  a.rs-link
 
